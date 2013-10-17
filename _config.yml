@@ -1,2 +1,3 @@
 markdown: redcarpet
-baseurl: /jekyll-demo
+baseurl: /large-data-website
+exclude: ['ia', 'visual-style', 'personas.md', 'README.md']
