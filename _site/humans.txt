@@ -1,0 +1,30 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Chris Chan <chris.noel.chan@gmail.com>
+Site: http://chris-noel-chan.github.io
+GitHub: https://github.com/chris-noel-chan
+Twitter: n/a
+Location: Ottawa, Canada / Toronto, Canada
+
+---
+
+# THANKS
+
+Thomas Bradley
+http://thomasjbradley.ca
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text 2
+- Git + GitHub
+- Markdown
+
+## Hosting
+
+- GitHub <http://github.com>
