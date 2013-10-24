@@ -245,21 +245,21 @@ h1 {
 
 
 
-/*----------searchbar-----------*/
+/*---------#searchbar-----------*/
 
-.searchbar {
+#searchbar {
 	/*margin-left: 5%;*/
 	margin-bottom: 3rem;
 	clear: both;
 }
 
-.searchbar label {
+#searchbar label {
 	display: inline-block;
 	margin-right: 1%;
 	width: 1.25rem;
 }
 
-.searchbar input {
+#searchbar input {
 	display: inline-block;
 	-webkit-appearance: none;
 	width: 85%;
@@ -271,11 +271,11 @@ h1 {
 
 @media only screen and (min-width: 20em) {
 
-	.searchbar label {
+	#searchbar label {
 		width: 2rem;
 	}
 
-	.searchbar input {
+	#searchbar input {
 		font-size: 2rem;
 	}
 
@@ -283,11 +283,11 @@ h1 {
 
 @media only screen and (min-width: 30em) {
 
-	.searchbar label {
+	#searchbar label {
 		width: 3rem;
 	}
 
-	.searchbar input {
+	#searchbar input {
 		font-size: 3rem;
 	}
 
@@ -295,15 +295,15 @@ h1 {
 
 @media only screen and (min-width: 45em) {
 
-	.searchbar {
+	#searchbar {
 		padding: 0 4%;
 	}
 
-	.searchbar label {
+	#searchbar label {
 		width: 4rem;
 	}
 
-	.searchbar input {
+	#searchbar input {
 		font-size: 4rem;
 	}
 
