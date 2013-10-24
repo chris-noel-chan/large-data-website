@@ -30,7 +30,7 @@ ul {
 
 header {
 	overflow: hidden;
-	margin: -2%;
+	margin: 2%;
 	padding: 10px 0 0 10px;
 
 	background-color: #fff;
@@ -237,7 +237,8 @@ h1 {
 		width: 25%;
 	}
 
-	.main-content {
+	.main-content,
+	.grid {
 		float: right;
 		width: 70%;
 	}
