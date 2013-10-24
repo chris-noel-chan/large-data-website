@@ -145,13 +145,40 @@ header img {
 	.nav-top,
 	.nav-top a,
 	.nav-top a:link {
-	max-height: 7rem;
+	max-height: 40rem;
 	}
 
 	.nav li,
 	.nav li:link,
 	.nav li:visited {
 		width: 20%;
+	}
+}
+
+@media only screen and (min-width: 75em) {
+
+		header img {
+		display: block;
+		margin: 20% 20% 18%;
+		width: 60%;
+	}
+
+	.nav-top {
+		float: none;
+		width: 100%;
+	}
+
+	.nav li,
+	.nav li:link,
+	.nav li:visited {
+		display: block;
+		width: 100%;
+	}
+
+	.nav a,
+	.nav a:link,
+	.nav a:visited {
+		font-size: 1.5rem;
 	}
 }
 
@@ -180,13 +207,40 @@ h1 {
 	background-color: #666;
 }
 
-@media only screen and (min-width: 45em){
+@media only screen and (min-width: 30em){
 
-.main-content p {
-	font-size: 3em;
-	line-height: 1.25em;
+	.main-content p {
+		font-size: 1.75rem;
+		line-height: 1.25em;
+	}
+
 }
 
+@media only screen and (min-width: 45em){
+
+	h1 {
+		font-size: 4rem;
+		line-height: 1.125em;
+	}
+
+	.main-content p {
+		font-size: 2.75rem;
+		line-height: 1.25em;
+	}
+
+}
+
+@media only screen and (min-width: 75em) {
+
+	header {
+		float: left;
+		width: 25%;
+	}
+
+	.main-content {
+		float: right;
+		width: 70%;
+	}
 }
 
 
@@ -194,32 +248,72 @@ h1 {
 /*----------searchbar-----------*/
 
 .searchbar {
-	margin-left: 5%;
+	/*margin-left: 5%;*/
 	margin-bottom: 3rem;
+	clear: both;
 }
 
 .searchbar label {
 	display: inline-block;
 	margin-right: 1%;
-	width: 7%;
+	width: 1.25rem;
 }
 
 .searchbar input {
 	display: inline-block;
 	-webkit-appearance: none;
-	width: 80%;
+	width: 85%;
 
 	border-radius: 4rem;
-	font-size: 4rem;
-	padding-left: 2rem;
+	font-size: 1rem;
+	text-align: center;
 }
 
+@media only screen and (min-width: 20em) {
 
+	.searchbar label {
+		width: 2rem;
+	}
+
+	.searchbar input {
+		font-size: 2rem;
+	}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+	.searchbar label {
+		width: 3rem;
+	}
+
+	.searchbar input {
+		font-size: 3rem;
+	}
+
+}
+
+@media only screen and (min-width: 45em) {
+
+	.searchbar {
+		padding: 0 4%;
+	}
+
+	.searchbar label {
+		width: 4rem;
+	}
+
+	.searchbar input {
+		font-size: 4rem;
+	}
+
+}
 
 /*---------------------------------footer-------------------------------------*/
 
 footer {
 		border-top: 1px solid;
+		clear: both;
 }
 
 footer p {
