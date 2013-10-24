@@ -13,7 +13,7 @@ html {
 
 body{
 	margin: 0;
-	padding: 2%;
+	padding: 2% 2% 1%;
 
 	background-color: #fff;
 }
@@ -166,10 +166,6 @@ h1 {
 	/*text-shadow: 3px -3px 0px rgba(0, 0, 0, .5);*/
 }
 
-.main-content {
-	border-bottom: 1px solid;
-}
-
 .main-content a {
 	padding: 4px;
 	line-height: 1.65rem;
@@ -197,8 +193,35 @@ h1 {
 
 /*----------searchbar-----------*/
 
-.searchbar input {
-	-webkit-appearance: none;
+.searchbar {
+	margin-left: 5%;
+	margin-bottom: 3rem;
+}
 
+.searchbar label {
+	display: inline-block;
+	margin-right: 1%;
+	width: 7%;
+}
+
+.searchbar input {
+	display: inline-block;
+	-webkit-appearance: none;
+	width: 80%;
+
+	border-radius: 4rem;
 	font-size: 4rem;
+	padding-left: 2rem;
+}
+
+
+
+/*---------------------------------footer-------------------------------------*/
+
+footer {
+		border-top: 1px solid;
+}
+
+footer p {
+	font-size: .75rem;
 }
