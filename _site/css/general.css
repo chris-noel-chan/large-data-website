@@ -15,7 +15,8 @@ body{
 	margin: 0;
 	padding: 2% 2% 1%;
 
-	background-color: #fff;
+	/*background-image: url(../img/textured_paper.png);*/
+	background-color: #391128;
 }
 
 img {
@@ -30,12 +31,12 @@ ul {
 
 header {
 	overflow: hidden;
-	margin: 2%;
+	margin: -2% -2% 2%;
 	padding: 10px 0 0 10px;
 
-	background-color: #fff;
+	/*background-color: #391128;*/
 	border-bottom: 2px solid;
-	border-color: #000;
+	border-color: #fff;
 }
 
 header img {
@@ -64,12 +65,12 @@ header img {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #666;
+	background-color: #82b597;
 	background-position: 0 -40px;
 }
 
 .nav-btn[data-state="engaged"] {
-	background-color: #666;
+	background-color: #82b597;
 	background-position: -46px -40px;
 }
 
@@ -83,14 +84,17 @@ header img {
 .nav a,
 .nav a:link,
 .nav a:visited {
-	background-color: #000;
+	background-color: #a8e6c1;
 	display: block;
 	margin-bottom: 3px;
 	overflow: hidden;
 	padding: .4rem;
 
-	color: #FFF;
+	color: #391128;
+	font-family: oswald, sans-serif;
+	font-weight: 300;
 	font-size: .8rem;
+	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -98,7 +102,7 @@ header img {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: #666;
+	background-color: #82b597;
 }
 
 .nav-top,
@@ -185,26 +189,42 @@ header img {
 
 /*////////////////////////////main content////////////////////////////////*/
 
-h1 {
-	color: #000;
-	font-size: 2.5rem;
-	line-height: 3rem;
+h1,
+h2 {
+	color: #a8e6c1;
+	font-family: oswald, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
 
 	/*text-shadow: 3px -3px 0px rgba(0, 0, 0, .5);*/
+}
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+p {
+	color: #fff;
 }
 
 .main-content a {
 	padding: 4px;
 	line-height: 1.65rem;
-	background-color: #000;
+	background-color: #a8e6c1;
 	text-decoration: none;
-	color: #fff;
+	color: #391128;
 }
 
 .main-content a:hover,
 .main-content a:focus,
 .main-content a:active {
-	background-color: #666;
+	background-color: #82b597;
 }
 
 @media only screen and (min-width: 30em){
@@ -313,7 +333,7 @@ h1 {
 /*---------------------------------footer-------------------------------------*/
 
 footer {
-		border-top: 1px solid;
+		border-top: 1px solid #fff;
 		clear: both;
 }
 
