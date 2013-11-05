@@ -33,12 +33,12 @@ insideNav = false;
 
 openNav = function() {
   navTop.setAttribute('data-state', 'expanded');
-  return navBtn.setAttribute('data-state', 'active');
+  return navBtn.setAttribute('data-state', 'engaged');
 };
 
 closeNav = function() {
   navTop.setAttribute('data-state', 'collapsed');
-  return navBtn.setAttribute('data-state', 'inactive');
+  return navBtn.setAttribute('data-state', 'disengaged');
 };
 
 toggleNav = function() {
