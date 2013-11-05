@@ -85,6 +85,10 @@ a:focus {
 
 
 /*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
+.current {
+	background-color: #000;
+}
+
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
