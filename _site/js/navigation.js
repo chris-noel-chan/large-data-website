@@ -42,7 +42,7 @@ closeNav = function() {
 };
 
 toggleNav = function() {
-  if (navTop.getAttribute('data-state') == 'expanded') {
+  if (navTop.getAttribute('data-state') === 'expanded') {
     return closeNav();
   } else {
     return openNav();
