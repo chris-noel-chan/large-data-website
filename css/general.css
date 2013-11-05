@@ -29,6 +29,7 @@ ul {
 	padding-left: 0;
 }
 
+
 header {
 	overflow: hidden;
 	margin: -2% -2% 2%;
@@ -47,6 +48,35 @@ header img {
 	top: 18px;*/
 	margin-bottom: 10px;
 	width: 60px;
+}
+
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 3000;
+
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style: none;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.75em 1em;
+	position: absolute;
+	top:-10em;
+
+	background-color: #000;
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus {
+	top: 0;
 }
 
 /*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
@@ -186,11 +216,22 @@ header img {
 	}
 }
 
+/*-------------------table of contents (article pages---------------------*/
+
+	.contents {
+		clear: both;
+	}
+
+	.contents ol {
+		padding-left: 0;
+	}
+
 
 /*////////////////////////////main content////////////////////////////////*/
 
 h1,
-h2 {
+h2,
+h3 {
 	color: #a8e6c1;
 	font-family: oswald, sans-serif;
 	font-weight: 300;
@@ -207,6 +248,11 @@ h1 {
 h2 {
 	font-size: 2rem;
 	line-height: 2.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	line-height: 1.25rem;
 }
 
 p {
