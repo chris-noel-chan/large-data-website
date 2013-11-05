@@ -32,12 +32,18 @@
 
 <body>
 
+	<ul class="skiplinks">
+		<li><a href="#main">Skip to primary content</a></li>
+		<li><a href="#searchbar">Skip to searchbar</a></li>
+		<li><a href="#navigation">Skip to navigation</a></li>
+	</ul>
+
 	<header id="header">
 
 		<a href="index.html" rel="home"><img src="img/rufus.svg" alt="companion logo"></a>
 		<a href="#nav" class="nav-btn"></a>
 
-		<nav class="nav nav-top" data-state="collapsed">
+		<nav role="navigation" id="navigation" class="nav nav-top" data-state="collapsed">
 			<ul>
 				<li><a href="index.html" rel="home">Home</a></li>
 				<li><a href="repair.html">Repair</a></li>
@@ -47,6 +53,8 @@
 		</nav>
 
 	</header>
+
+	<div role="main" id="main" class="main-content">
 
 	<div class="grid">
 
@@ -84,6 +92,8 @@
 
 </div>
 
+
+	</div>
 
 	<footer>
 		<p>© Chris Chan, BSD-3 Clause License</p>

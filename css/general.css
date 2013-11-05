@@ -79,6 +79,11 @@ header img {
 	top: 0;
 }
 
+a:focus {
+	outline: 3px solid #fff;
+}
+
+
 /*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
 .nav-btn,
 .nav-btn:link,

@@ -32,12 +32,18 @@
 
 <body>
 
+	<ul class="skiplinks">
+		<li><a href="#main">Skip to primary content</a></li>
+		<li><a href="#complementary">Skip to secondary content</a></li>
+		<li><a href="#navigation">Skip to navigation</a></li>
+	</ul>
+
 	<header id="header">
 
 		<a href="index.html" rel="home"><img src="img/rufus.svg" alt="companion logo"></a>
 		<a href="#nav" class="nav-btn"></a>
 
-		<nav class="nav nav-top" data-state="collapsed">
+		<nav role="navigation" id="navigation" class="nav nav-top" data-state="collapsed">
 			<ul>
 				<li><a href="index.html" rel="home">Home</a></li>
 				<li><a href="repair.html">Repair</a></li>
@@ -48,8 +54,8 @@
 
 	</header>
 
-		<ol class="contents">
 		<h3>Contents</h3>
+		<ol class="contents">
 		<li><a href="#">Overview</a></li>
 		<li><a href="#">The bicycle and the cyclist's equipment</a></li>
 		<li><a href="#">Factors that influence levels of utility cycling</a>
@@ -59,7 +65,11 @@
 		</li>
 	</ol>
 
+	<div role="main" id="main" class="grid">
+
 	{{content}}
+
+	</div>
 
 	<footer>
 		<p>© Chris Chan, BSD-3 Clause License</p>

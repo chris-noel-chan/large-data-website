@@ -50,6 +50,40 @@ header img {
 	width: 60px;
 }
 
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 3000;
+
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style: none;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.75em 1em;
+	position: absolute;
+	top:-10em;
+
+	background-color: #000;
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus {
+	top: 0;
+}
+
+a:focus {
+	outline: 3px solid #fff;
+}
+
+
 /*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
 .nav-btn,
 .nav-btn:link,
