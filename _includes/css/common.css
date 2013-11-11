@@ -1,0 +1,63 @@
+@viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-moz-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+
+html {
+	margin: 0;
+	padding: 0;
+
+	font: normal 100%/1.5 sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 2% 2% 1%;
+
+	/*background-image: url(../img/textured_paper.png);*/
+	background-color: #391128;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+header {
+	overflow: hidden;
+	margin: -2% -2% 2%;
+	padding: 10px 0 0 10px;
+
+	/*background-color: #391128;*/
+	border-bottom: 2px solid;
+	border-color: #fff;
+}
+
+header img {
+	display: inline-block;
+	float: left;
+	/*position: absolute;
+	left: 10px;
+	top: 18px;*/
+	margin-bottom: 10px;
+	width: 60px;
+}
+
+
+/*---------------------------------footer-------------------------------------*/
+
+footer {
+		border-top: 1px solid #fff;
+		clear: both;
+}
+
+footer p {
+	font-size: .75rem;
+}

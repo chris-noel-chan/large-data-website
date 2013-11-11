@@ -50,193 +50,19 @@ header img {
 	width: 60px;
 }
 
-.skiplinks {
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	width: 100%;
-	z-index: 3000;
 
-	font-size: 1.25rem;
-	font-weight: bold;
-	list-style: none;
-}
+/*---------------------------------footer-------------------------------------*/
 
-.skiplinks a,
-.skiplinks a:link,
-.skiplinks a:visited {
-	padding: 0.75em 1em;
-	position: absolute;
-	top:-10em;
-
-	background-color: #000;
-
-	color: #fff;
-	text-decoration: none;
-}
-
-.skiplinks a:focus {
-	top: 0;
-}
-
-a:focus {
-	outline: 3px solid #fff;
-}
-
-
-/*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
-.current {
-	background-color: #000;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited {
-	height: 40px;
-	position: absolute;
-	right: .65rem;
-	top: 20px;
-	width: 46px;
-
-	background: transparent url("../img/icon-nav.svg") no-repeat 0 -40px;
-}
-
-.nav-btn:hover,
-.nav-btn:focus,
-.nav-btn:active {
-	background-color: #82b597;
-	background-position: 0 -40px;
-}
-
-.nav-btn[data-state="engaged"] {
-	background-color: #82b597;
-	background-position: -46px -40px;
-}
-
-.nav ul{
-	clear: both;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-	background-color: #a8e6c1;
-	display: block;
-	margin-bottom: 3px;
-	overflow: hidden;
-	padding: .4rem;
-
-	color: #391128;
-	font-family: oswald, sans-serif;
-	font-weight: 300;
-	font-size: .8rem;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-	background-color: #82b597;
-}
-
-.nav-top,
-.nav-top a,
-.nav-top a:link {
-	max-height: 0;
-
-	-moz-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	-webkit-transition: all 300ms ease-in-out;
-}
-
-.nav-top[data-state="expanded"],
-.nav-top[data-state="expanded"] a,
-.nav-top[data-state="expanded"] a:link {
-	max-height: 25rem;
-	padding: .325rem;
-}
-
-@media only screen and (min-width: 20em) {
-
-	.nav li,
-	.nav li:link,
-	.nav li:visited {
-		display: inline-block;
-		width: 45%;
-	}
-
-}
-
-@media only screen and (min-width: 30em) {
-
-	.nav-btn {
-	display: none;
-	}
-
-	.nav-top {
-		float: right;
-		width: 80%;
-		margin-top: 13px;
-	}
-
-	.nav-top,
-	.nav-top a,
-	.nav-top a:link {
-	max-height: 40rem;
-	}
-
-	.nav li,
-	.nav li:link,
-	.nav li:visited {
-		width: 20%;
-	}
-}
-
-@media only screen and (min-width: 75em) {
-
-		header img {
-		display: block;
-		margin: 20% 20% 18%;
-		width: 60%;
-	}
-
-	.nav-top {
-		float: none;
-		width: 100%;
-	}
-
-	.nav li,
-	.nav li:link,
-	.nav li:visited {
-		display: block;
-		width: 100%;
-	}
-
-	.nav a,
-	.nav a:link,
-	.nav a:visited {
-		font-size: 1.5rem;
-	}
-}
-
-/*-------------------table of contents (article pages---------------------*/
-
-	.contents {
+footer {
+		border-top: 1px solid #fff;
 		clear: both;
-	}
+}
 
-	.contents ol {
-		padding-left: 0;
-	}
+footer p {
+	font-size: .75rem;
+}
 
-
-/*////////////////////////////main content////////////////////////////////*/
+/*----------------------------main content---------------------------------*/
 
 h1,
 h2,
@@ -319,9 +145,163 @@ p {
 	}
 }
 
+/*-------------------table of contents (article pages)---------------------*/
+
+	.contents {
+		clear: both;
+	}
+
+	.contents ol {
+		padding-left: 0;
+	}
 
 
-/*---------#searchbar-----------*/
+
+/*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	height: 40px;
+	position: absolute;
+	right: .65rem;
+	top: 20px;
+	width: 46px;
+
+	background: transparent url("../img/icon-nav.svg") no-repeat 0 -40px;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #82b597;
+	background-position: 0 -40px;
+}
+
+.nav-btn[data-state="engaged"] {
+	background-color: #82b597;
+	background-position: -46px -40px;
+}
+
+.nav ul{
+	clear: both;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+	background-color: #a8e6c1;
+	display: block;
+	margin-bottom: 3px;
+	overflow: hidden;
+	padding: .4rem;
+
+	color: #391128;
+	font-family: oswald, sans-serif;
+	font-weight: 300;
+	font-size: .8rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #82b597;
+}
+
+.nav-top,
+.nav-top a,
+.nav-top a:link {
+	max-height: 0;
+
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+}
+
+.nav-top[data-state="expanded"],
+.nav-top[data-state="expanded"] a,
+.nav-top[data-state="expanded"] a:link {
+	max-height: 25rem;
+	padding: .325rem;
+}
+
+.nav a.current,
+.nav a.current:link,
+.nav a.current:visited  {
+	background-color: #000;
+}
+
+@media only screen and (min-width: 20em) {
+
+	.nav li,
+	.nav li:link,
+	.nav li:visited {
+		display: inline-block;
+		width: 45%;
+	}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+	.nav-btn {
+	display: none;
+	}
+
+	.nav-top {
+		float: right;
+		width: 80%;
+		margin-top: 13px;
+	}
+
+	.nav-top,
+	.nav-top a,
+	.nav-top a:link {
+	max-height: 40rem;
+	}
+
+	.nav li,
+	.nav li:link,
+	.nav li:visited {
+		width: 20%;
+	}
+}
+
+@media only screen and (min-width: 75em) {
+
+		header img {
+		display: block;
+		margin: 20% 20% 18%;
+		width: 60%;
+	}
+
+	.nav-top {
+		float: none;
+		width: 100%;
+	}
+
+	.nav li,
+	.nav li:link,
+	.nav li:visited {
+		display: block;
+		width: 100%;
+	}
+
+	.nav a,
+	.nav a:link,
+	.nav a:visited {
+		font-size: 1.5rem;
+	}
+}
+
+/*-----------------------------#searchbar--------------------------------*/
 
 #searchbar {
 	/*margin-left: 5%;*/
@@ -385,13 +365,37 @@ p {
 
 }
 
-/*---------------------------------footer-------------------------------------*/
+/*-------------------------------skip links-----------------------------------*/
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 3000;
 
-footer {
-		border-top: 1px solid #fff;
-		clear: both;
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style: none;
 }
 
-footer p {
-	font-size: .75rem;
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.75em 1em;
+	position: absolute;
+	top:-10em;
+
+	background-color: #000;
+
+	color: #fff;
+	text-decoration: none;
 }
+
+.skiplinks a:focus {
+	top: 0;
+}
+
+a:focus {
+	outline: 3px solid #fff;
+}
+
