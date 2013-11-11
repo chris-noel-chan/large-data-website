@@ -59,5 +59,6 @@ footer {
 }
 
 footer p {
+	float: left;
 	font-size: .75rem;
 }

@@ -59,6 +59,7 @@ footer {
 }
 
 footer p {
+	float: left;
 	font-size: .75rem;
 }
 
@@ -157,7 +158,22 @@ p {
 
 
 
-/*///////////////////////////////Navigation (with toggle btn)/////////////////////////////////////////////////////*/
+/*---------------------Navigation (with toggle btn)-------------------------*/
+
+.nav ul{
+	clear: both;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav a.current,
+.nav a.current:link,
+.nav a.current:visited  {
+	background-color: #000;
+}
+
+/*------------*/
 
 .nav-btn,
 .nav-btn:link,
@@ -183,37 +199,6 @@ p {
 	background-position: -46px -40px;
 }
 
-.nav ul{
-	clear: both;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.nav-top a,
-.nav-top a:link,
-.nav-top a:visited {
-	background-color: #a8e6c1;
-	display: block;
-	margin-bottom: 3px;
-	overflow: hidden;
-	padding: .4rem;
-
-	color: #391128;
-	font-family: oswald, sans-serif;
-	font-weight: 300;
-	font-size: .8rem;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-	background-color: #82b597;
-}
-
 .nav-top,
 .nav-top a,
 .nav-top a:link {
@@ -232,17 +217,64 @@ p {
 	padding: .325rem;
 }
 
-.nav a.current,
-.nav a.current:link,
-.nav a.current:visited  {
-	background-color: #000;
+/*------------*/
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	color: #fff;
+	font-family: oswald, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+	background-color: #a8e6c1;
+	display: block;
+	margin-bottom: 3px;
+	overflow: hidden;
+	padding: .4rem;
+	font-size: .8rem;
+	text-transform: uppercase;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+	font-size: .75rem;
+	text-transform: lowercase;
+}
+
+.nav-top a:hover,
+.nav-top a:focus,
+.nav-top a:active {
+	background-color: #82b597;
+}
+
+.nav-bottom a:hover,
+.nav-bottom a:focus,
+.nav-bottom a:active {
+	text-decoration: underline;
+}
+
+
+.nav-bottom li {
+	display: inline-block;
+}
+
+.nav-bottom {
+	float: right;
+	margin: 8px 0;
 }
 
 @media only screen and (min-width: 20em) {
 
-	.nav li,
-	.nav li:link,
-	.nav li:visited {
+	.nav-top li,
+	.nav-top li:link,
+	.nav-top li:visited {
 		display: inline-block;
 		width: 45%;
 	}
@@ -267,9 +299,9 @@ p {
 	max-height: 40rem;
 	}
 
-	.nav li,
-	.nav li:link,
-	.nav li:visited {
+	.nav-top li,
+	.nav-top li:link,
+	.nav-top li:visited {
 		width: 20%;
 	}
 }
@@ -287,9 +319,9 @@ p {
 		width: 100%;
 	}
 
-	.nav li,
-	.nav li:link,
-	.nav li:visited {
+	.nav-top li,
+	.nav-top li:link,
+	.nav-top li:visited {
 		display: block;
 		width: 100%;
 	}
