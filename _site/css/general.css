@@ -95,7 +95,7 @@ p {
 	color: #fff;
 }
 
-.main-content a {
+.lede a {
 	padding: 4px;
 	line-height: 1.65rem;
 	background-color: #a8e6c1;
@@ -111,7 +111,7 @@ p {
 
 @media only screen and (min-width: 30em){
 
-	.main-content p {
+	.lede {
 		font-size: 1.75rem;
 		line-height: 1.25em;
 	}
@@ -125,7 +125,7 @@ p {
 		line-height: 1.125em;
 	}
 
-	.main-content p {
+	.lede {
 		font-size: 2.75rem;
 		line-height: 1.25em;
 	}
@@ -136,13 +136,13 @@ p {
 
 	header {
 		float: left;
-		width: 25%;
+		width: 15%;
 	}
 
 	.main-content,
 	.grid {
 		float: right;
-		width: 70%;
+		width: 80%;
 	}
 }
 
