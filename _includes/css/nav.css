@@ -11,7 +11,7 @@
 .nav a.current,
 .nav a.current:link,
 .nav a.current:visited  {
-	background-color: #000;
+	background-color: #5c9e77;
 }
 
 /*------------*/
@@ -31,12 +31,12 @@
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #82b597;
+	background-color: #5c9e77;
 	background-position: 0 -40px;
 }
 
 .nav-btn[data-state="engaged"] {
-	background-color: #82b597;
+	background-color: #5c9e77;
 	background-position: -46px -40px;
 }
 
@@ -63,9 +63,6 @@
 .nav a,
 .nav a:link,
 .nav a:visited {
-	color: #fff;
-	font-family: oswald, sans-serif;
-	font-weight: 300;
 	text-align: center;
 	text-decoration: none;
 }
@@ -73,18 +70,25 @@
 .nav-top a,
 .nav-top a:link,
 .nav-top a:visited {
-	background-color: #a8e6c1;
 	display: block;
 	margin-bottom: 3px;
 	overflow: hidden;
 	padding: .4rem;
+
+	background-color: #81cb9f;
+	color: #222;
+
 	font-size: .8rem;
+	font-family: oswald, sans-serif;
+	font-weight: 300;
 	text-transform: uppercase;
+
 }
 
 .nav-bottom a,
 .nav-bottom a:link,
 .nav-bottom a:visited {
+	color: #fff;
 	font-size: .75rem;
 	text-transform: lowercase;
 }
@@ -92,7 +96,7 @@
 .nav-top a:hover,
 .nav-top a:focus,
 .nav-top a:active {
-	background-color: #82b597;
+	background-color: #5c9e77;
 }
 
 .nav-bottom a:hover,

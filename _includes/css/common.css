@@ -9,7 +9,7 @@ html {
 	padding: 0;
 
 	background-image: url(../img/bike-bkg.jpg);
-	font: normal 100%/1.5 sans-serif;
+	font: normal 100%/1.75 sans-serif;
 }
 
 body{
@@ -18,7 +18,7 @@ body{
 
 
 	/*background-image: url(../img/textured_paper.png);*/
-	background-color: rgba(35, 6, 23, .8);
+	/*background-color: rgba(35, 6, 23, .8);*/
 }
 
 img {

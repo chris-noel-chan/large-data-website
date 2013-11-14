@@ -1,6 +1,7 @@
 ---
 ---
 
+{% include css/normalize.css %}
 {% include css/common.css %}
 {% include css/content.css %}
 {% include css/nav.css %}

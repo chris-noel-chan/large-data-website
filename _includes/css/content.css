@@ -3,9 +3,9 @@
 h1,
 h2,
 h3 {
-	color: #a8e6c1;
+	color: #81cb9f;
 	font-family: oswald, sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 
 	/*text-shadow: 3px -3px 0px rgba(0, 0, 0, .5);*/
@@ -32,16 +32,16 @@ p {
 
 .lede a {
 	padding: 4px;
-	line-height: 1.65rem;
-	background-color: #a8e6c1;
+	/*line-height: 1.65rem;*/
+	background-color: #81cb9f;
 	text-decoration: none;
-	color: #391128;
+	color: #222;
 }
 
 .main-content a:hover,
 .main-content a:focus,
 .main-content a:active {
-	background-color: #82b597;
+	background-color: #5c9e77;
 }
 
 @media only screen and (min-width: 30em){
