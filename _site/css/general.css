@@ -411,11 +411,21 @@ table {
 @-o-viewport {width: device-width; scale: 1;}
 @-webkit-viewport {width: device-width; scale: 1;}
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
 	margin: 0;
 	padding: 0;
 
-	background-image: url(../img/bike-bkg.jpg);
+	background-image: url(../img/bike-bkg-dbl.jpg);
+	/*background-attachment: fixed;*/
+	background-size: 100%;
+	background-color: #000;
+	color: #fff;
 	font: normal 100%/1.75 sans-serif;
 }
 
@@ -431,6 +441,10 @@ body{
 img {
 	display: block;
 	width: 100%;
+}
+
+.bkground {
+	float: left;
 }
 
 ul {
@@ -500,9 +514,6 @@ h3 {
 	line-height: 1.25rem;
 }
 
-p {
-	color: #fff;
-}
 
 .lede a {
 	padding: 4px;
@@ -545,7 +556,10 @@ p {
 
 	header {
 		float: left;
+		height: 100;
 		width: 15%;
+
+		border-bottom: none;
 	}
 
 	.main-content,
@@ -631,6 +645,8 @@ p {
 .nav a,
 .nav a:link,
 .nav a:visited {
+	padding: .4rem;
+
 	text-align: center;
 	text-decoration: none;
 }
@@ -641,7 +657,7 @@ p {
 	display: block;
 	margin-bottom: 3px;
 	overflow: hidden;
-	padding: .4rem;
+
 
 	background-color: #81cb9f;
 	color: #222;
@@ -943,5 +959,28 @@ a:focus {
   .unit-l-3-4 {
     width: 75%;
   }
+}
+
+#lost-img {
+	background-color: rgba(16,95,128,.8);
+	padding: 2%;
+	overflow: hidden;
+}
+
+
+@media only screen and (min-width: 30em){
+
+	.you-lost-img {
+		display: inline;
+		float: left;
+		width: 40%;
+	}
+
+	.you-lost-txt {
+		display: inline;
+		float: right;
+		width: 45%;
+	}
+
 }
 

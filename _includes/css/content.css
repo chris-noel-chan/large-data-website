@@ -26,9 +26,6 @@ h3 {
 	line-height: 1.25rem;
 }
 
-p {
-	color: #fff;
-}
 
 .lede a {
 	padding: 4px;
@@ -71,7 +68,10 @@ p {
 
 	header {
 		float: left;
+		height: 100;
 		width: 15%;
+
+		border-bottom: none;
 	}
 
 	.main-content,

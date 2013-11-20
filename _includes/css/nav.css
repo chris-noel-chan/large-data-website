@@ -63,6 +63,8 @@
 .nav a,
 .nav a:link,
 .nav a:visited {
+	padding: .4rem;
+
 	text-align: center;
 	text-decoration: none;
 }
@@ -73,7 +75,7 @@
 	display: block;
 	margin-bottom: 3px;
 	overflow: hidden;
-	padding: .4rem;
+
 
 	background-color: #81cb9f;
 	color: #222;
