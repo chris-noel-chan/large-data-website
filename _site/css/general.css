@@ -443,10 +443,6 @@ img {
 	width: 100%;
 }
 
-.bkground {
-	float: left;
-}
-
 ul {
 	list-style-type: none;
 	padding-left: 0;
@@ -459,7 +455,7 @@ header {
 	padding: 10px 0 0 10px;
 
 	/*background-color: #391128;*/
-	border-bottom: 2px solid;
+	border-bottom: 1px solid;
 	border-color: #fff;
 }
 
@@ -514,12 +510,14 @@ h3 {
 	line-height: 1.25rem;
 }
 
+a {
+		text-decoration: none;
+}
 
 .lede a {
 	padding: 4px;
 	/*line-height: 1.65rem;*/
 	background-color: #81cb9f;
-	text-decoration: none;
 	color: #222;
 }
 
@@ -713,7 +711,7 @@ h3 {
 @media only screen and (min-width: 30em) {
 
 	.nav-btn {
-	display: none;
+		display: none;
 	}
 
 	.nav-top {
@@ -725,7 +723,7 @@ h3 {
 	.nav-top,
 	.nav-top a,
 	.nav-top a:link {
-	max-height: 40rem;
+		max-height: 40rem;
 	}
 
 	.nav-top li,
@@ -755,9 +753,9 @@ h3 {
 		width: 100%;
 	}
 
-	.nav a,
-	.nav a:link,
-	.nav a:visited {
+	.nav-top a,
+	.nav-top a:link,
+	.nav-top a:visited {
 		font-size: 1.5rem;
 	}
 }

@@ -26,12 +26,14 @@ h3 {
 	line-height: 1.25rem;
 }
 
+a {
+		text-decoration: none;
+}
 
 .lede a {
 	padding: 4px;
 	/*line-height: 1.65rem;*/
 	background-color: #81cb9f;
-	text-decoration: none;
 	color: #222;
 }
 

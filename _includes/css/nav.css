@@ -131,7 +131,7 @@
 @media only screen and (min-width: 30em) {
 
 	.nav-btn {
-	display: none;
+		display: none;
 	}
 
 	.nav-top {
@@ -143,7 +143,7 @@
 	.nav-top,
 	.nav-top a,
 	.nav-top a:link {
-	max-height: 40rem;
+		max-height: 40rem;
 	}
 
 	.nav-top li,
@@ -173,9 +173,9 @@
 		width: 100%;
 	}
 
-	.nav a,
-	.nav a:link,
-	.nav a:visited {
+	.nav-top a,
+	.nav-top a:link,
+	.nav-top a:visited {
 		font-size: 1.5rem;
 	}
 }
