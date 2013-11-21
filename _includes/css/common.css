@@ -1,0 +1,76 @@
+@viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-moz-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+
+	background-image: url(../img/bike-bkg-dbl.jpg);
+	/*background-attachment: fixed;*/
+	background-size: 100%;
+	background-color: #000;
+	color: #fff;
+	font: normal 100%/1.75 sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 2% 2% 1%;
+
+
+	/*background-image: url(../img/textured_paper.png);*/
+	/*background-color: rgba(35, 6, 23, .8);*/
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+header {
+	overflow: hidden;
+	margin: -2% -2% 2%;
+	padding: 10px 0 0 10px;
+
+	/*background-color: #391128;*/
+	border-bottom: 1px solid;
+	border-color: #fff;
+}
+
+header img {
+	display: inline-block;
+	float: left;
+	/*position: absolute;
+	left: 10px;
+	top: 18px;*/
+	margin-bottom: 10px;
+	width: 60px;
+}
+
+
+/*---------------------------------footer-------------------------------------*/
+
+footer {
+		border-top: 1px solid #fff;
+		clear: both;
+}
+
+footer p {
+	float: left;
+	font-size: .75rem;
+}

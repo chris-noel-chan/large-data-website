@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>{{page.title}}</title>
+	<title>Error 404 · Page not found</title>
 
 	<!-- Facebook -->
 	<meta property="og:type" content="article">
@@ -21,9 +21,11 @@
 	<meta property="twitter:image" content="http://chris-noel-chan.github.io/large-data-website/img/rufus.svg">
 	<meta property="twitter:description" content="Rufus fetches bike information for you to repair, adjust, and choose a suitable two-wheeled companion.">
 
-	<link href="css/general.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Oswald:300,700' rel='stylesheet' type='text/css'>
-	<link href="css/grid.css" rel="stylesheet">
+
+
+	<link href="/css/general.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="/css/grid.css" rel="stylesheet">
 
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
@@ -34,45 +36,51 @@
 
 	<ul class="skiplinks">
 		<li><a href="#main">Skip to primary content</a></li>
-		<li><a href="#complementary">Skip to secondary content</a></li>
+		<li><a href="#searchbar">Skip to searchbar</a></li>
 		<li><a href="#navigation">Skip to navigation</a></li>
 	</ul>
 
 	<header id="header">
 
-		<a href="index.html" rel="home"><img src="img/rufus.svg" alt="companion logo"></a>
-		<a href="#navigation" class="nav-btn"></a>
+		<a href="index.html" rel="home"><img src="../img/rufus.svg" alt="companion logo"></a>
+				<a href="#navigation" class="nav-btn"></a>
 
 		<nav role="navigation" id="navigation" class="nav nav-top" data-state="collapsed">
 			<ul>
-				<li><a href="index.html" rel="home">Home</a></li>
+				<li><a href="/index.html" rel="home" class="">Home</a></li>
 				<li><a href="">Repair</a></li>
 				<li><a href="">Adjust</a></li>
-				<li><a href="choose.html">Choose</a></li>
+				<li><a href="/pages/choose.html" class="">Choose</a></li>
 			</ul>
 		</nav>
 
+
 	</header>
 
-		<h3>Contents</h3>
-		<ol class="contents">
-		<li><a href="#">Overview</a></li>
-		<li><a href="#">The bicycle and the cyclist's equipment</a></li>
-		<li><a href="#">Factors that influence levels of utility cycling</a>
-			<ul>
-				<li><a href="#">Town planning</a></li>
-			</ul>
-		</li>
-	</ol>
+	<div role="main" id="main" class="main-content">
 
-	<div role="main" id="main" class="grid">
+	<div id="lost-img" class="flex-img">
+	<img class="you-lost-img" src="../img/404.svg">
+	<h1 class="you-lost-txt">Whoops! We couldn't find what you're looking for</h1>
+</div>
 
-	{{content}}
 
 	</div>
 
 	<footer>
-		<p>© Chris Chan, BSD-3 Clause License</p>
+				<a href="#navigation" class="nav-btn"></a>
+
+		<nav role="navigation" id="navigation" class="nav nav-bottom" data-state="collapsed">
+			<ul>
+				<li><a href="/index.html" rel="home" class="">Home</a></li>
+				<li><a href="">Repair</a></li>
+				<li><a href="">Adjust</a></li>
+				<li><a href="/pages/choose.html" class="">Choose</a></li>
+			</ul>
+		</nav>
+
+		<p role="contentinfo">© Chris Chan, BSD-3 Clause License</p>
+
 	</footer>
 
 	<script src="js/$.min.js"></script>

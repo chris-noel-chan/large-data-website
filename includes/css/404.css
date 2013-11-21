@@ -1,0 +1,14 @@
+#lost-img {
+	background-color: #666;
+	overflow: hidden;
+}
+
+.404-img {
+	float: left;
+	width: 40%;
+}
+
+.404-txt {
+	float: right;
+	width: 45%;
+}

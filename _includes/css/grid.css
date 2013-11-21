@@ -1,3 +1,9 @@
+/*------------------------------grid---------------------------------------*/
+
+.flex-img {
+  width: 100%;
+}
+
 .grid {
   letter-spacing: -0.31em;
   *letter-spacing: normal;

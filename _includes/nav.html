@@ -1,0 +1,10 @@
+		<a href="#navigation" class="nav-btn"></a>
+
+		<nav role="navigation" id="navigation" class="nav {{include.navclass}}" data-state="collapsed">
+			<ul>
+				<li><a href="{{site.baseurl}}/index.html" rel="home" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+				<li><a href="">Repair</a></li>
+				<li><a href="">Adjust</a></li>
+				<li><a href="{{site.baseurl}}/pages/choose.html" class="{% if page.url == '/choose.html' %}current{% endif %}">Choose</a></li>
+			</ul>
+		</nav>
