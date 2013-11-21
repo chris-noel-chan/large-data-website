@@ -55,11 +55,11 @@ header {
 header img {
 	display: inline-block;
 	float: left;
-	/*position: absolute;
-	left: 10px;
-	top: 18px;*/
+	position: relative;
+	/*left: 10px;*/
+	top: 3px;
 	margin-bottom: 10px;
-	width: 60px;
+	width: 150px;
 }
 
 
