@@ -473,9 +473,6 @@ header {
 header img {
 	display: inline-block;
 	float: left;
-	position: relative;
-	/*left: 10px;*/
-	top: 3px;
 	margin-bottom: 10px;
 	width: 150px;
 }
@@ -597,6 +594,7 @@ a {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+
 }
 
 .nav a.current,
@@ -660,11 +658,15 @@ a {
 	text-decoration: none;
 }
 
+.nav-top ul {
+	position: relative;
+	top: 8px;
+}
+
 .nav-top a,
 .nav-top a:link,
 .nav-top a:visited {
 	display: block;
-	margin-bottom: 3px;
 	overflow: hidden;
 
 
@@ -715,12 +717,12 @@ a {
 	.nav-top li:link,
 	.nav-top li:visited {
 		display: inline-block;
-		width: 45%;
+		width: 47.5%;
 	}
 
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 37em) {
 
 	.nav-btn {
 		display: none;
@@ -728,20 +730,26 @@ a {
 
 	.nav-top {
 		float: right;
-		width: 80%;
-		margin-top: 13px;
+		/*width: 60%;*/
+		margin-right: 5%;
+		padding: 0;
+	}
+
+	.nav-top ul{
+		float: right;
 	}
 
 	.nav-top,
 	.nav-top a,
 	.nav-top a:link {
-		max-height: 40rem;
+		max-height: 4rem;
+		font-size: 1.25rem;
 	}
 
 	.nav-top li,
 	.nav-top li:link,
 	.nav-top li:visited {
-		width: 20%;
+		width: auto;
 	}
 }
 

@@ -66,9 +66,6 @@ header {
 header img {
 	display: inline-block;
 	float: left;
-	position: relative;
-	/*left: 10px;*/
-	top: 3px;
 	margin-bottom: 10px;
 	width: 150px;
 }
