@@ -1,0 +1,21 @@
+---
+layout: default
+title: Sport bikes · Cyclopedia
+---
+
+
+		<h1>Sport Bikes</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, deserunt, obcaecati ipsa officia magnam molestiae facilis porro vitae et quod minus quaerat aperiam voluptas explicabo nemo alias veniam fuga rem?</p>
+
+
+		<div class="bike-grid">
+
+			{% for bikes in site.categories.sport %}
+
+				<a class="bike-square grid unit unit-s-1 unit-m-1-2 unit-l-1-3" href="{{site.baseurl}}{{bikes.url}}">
+					<img src="../img/bikes/{{bikes.thumb}}">
+				</a>
+
+			{% endfor %}
+
+		</div>
