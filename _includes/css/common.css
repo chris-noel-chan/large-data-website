@@ -36,15 +36,12 @@ html {
 body{
 	margin: 0;
 	padding: 2% 2% 1%;
-
-
-	/*background-image: url(../img/textured_paper.png);*/
-	/*background-color: rgba(35, 6, 23, .8);*/
 }
 
 img {
 	display: block;
 	width: 100%;
+	border: none;
 }
 
 ul {

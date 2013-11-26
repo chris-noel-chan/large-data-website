@@ -9,11 +9,19 @@
 
 }
 
-.nav a.current,
-.nav a.current:link,
-.nav a.current:visited  {
+.nav-top a.current,
+.nav-top a.current:link,
+.nav-top a.current:visited  {
 	background-color: #5c9e77;
 }
+
+.nav-bottom a.current,
+.nav-bottom a.current:link,
+.nav-bottom a.current:visited {
+	border-bottom: 4px solid;
+	border-color: #5c9e77;
+}
+
 
 /*------------*/
 
@@ -110,7 +118,8 @@
 .nav-bottom a:hover,
 .nav-bottom a:focus,
 .nav-bottom a:active {
-	text-decoration: underline;
+	border-bottom: 4px solid;
+	border-color: #5c9e77;
 }
 
 
@@ -134,7 +143,7 @@
 
 }
 
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 38em) {
 
 	.nav-btn {
 		display: none;

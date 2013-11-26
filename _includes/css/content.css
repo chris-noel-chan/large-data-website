@@ -1,5 +1,4 @@
 /*----------------------------main content---------------------------------*/
-
 h1,
 h2,
 h3 {
@@ -28,6 +27,10 @@ h3 {
 
 a {
 		text-decoration: none;
+}
+
+.title-banner {
+	background-color: #000;
 }
 
 .lede a {
