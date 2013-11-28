@@ -23,12 +23,20 @@ html {
 }
 
 body{
-	margin: 0;
+	margin: 0 auto;
 	padding: 2% 2% 1%;
 
+	max-width: 700px;
 
 	/*background-image: url(../img/textured_paper.png);*/
 	/*background-color: rgba(35, 6, 23, .8);*/
+}
+
+/*media query detection*/
+@media only screen and (min-width: 10px) {
+	body{
+		max-width: none;
+	}
 }
 
 img {
