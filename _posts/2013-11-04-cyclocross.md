@@ -3,7 +3,7 @@ title: Cyclo-cross
 layout: info
 category: sport
 description: "*Cyclo-cross bikes* is designed like a racing bike, but can traverse rougher terrain."
-thumb: cyclocross.jpg
+thumb: mtb-colorize1.svg
 source: http://en.wikipedia.org/wiki/Cyclo-cross_bicycle
 ---
 

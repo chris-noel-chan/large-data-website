@@ -3,7 +3,7 @@ title: Recumbent
 layout: info
 category: leisure
 description: "*Recumbent bikes* are designed to be ridden in a reclined position. They are more ergonomic and aerodynamic."
-thumb: recumbent.jpg
+thumb: mtb-colorize1.svg
 source: http://en.wikipedia.org/wiki/Recumbent_bicycle
 ---
 
