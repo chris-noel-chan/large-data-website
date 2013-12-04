@@ -3,7 +3,7 @@ title: Sportive / Road
 layout: half-grid
 category: leisure
 description: "*Sportive bikes* are similar to *racing bikes*, but distinguished by being built more for endurance than bursts of speed"
-thumb: mtb-colorize4.svg
+thumb: mtb-colorize12.svg
 source: http://en.wikipedia.org/wiki/Road_bicycle
 ---
 
