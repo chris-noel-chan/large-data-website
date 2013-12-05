@@ -30,7 +30,8 @@ a {
 }
 
 .title-banner {
-	background-color: #000;
+ margin: 5%;
+ padding: 13% 3%;
 }
 
 .lede a {
@@ -46,20 +47,24 @@ a {
 	background-color: #5c9e77;
 }
 
-@media only screen and (min-width: 30em){
+.bike-grid {
+	background-color: #000;
+}
 
-	.lede {
-		font-size: 1.75rem;
-		line-height: 1.25em;
+@media only screen and (min-width: 25em){
+
+	h1 {
+		font-size: 4rem;
+		line-height: 4.5rem;
 	}
 
 }
 
-@media only screen and (min-width: 45em){
+@media only screen and (min-width: 40em){
 
 	h1 {
-		font-size: 4rem;
-		line-height: 1.125em;
+		font-size: 7rem;
+		line-height: 7.25rem;
 	}
 
 	.lede {
