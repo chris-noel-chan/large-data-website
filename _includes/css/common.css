@@ -10,13 +10,24 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'romeralregular';
+    src: url("../fonts/romeral-webfont.eot");
+    src: url("../fonts/romeral-webfont.eot?#iefix") format('embedded-opentype'),
+         url("../fonts/romeral-webfont.woff") format('woff'),
+         url("../fonts/romeral-webfont.ttf") format('truetype'),
+         url("../fonts/romeral-webfont.svg#romeralregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 	margin: 0;
 	padding: 0;
 
-	background-image: url(../img/bike-bkg-dbl.jpg);
+	background-image: url(../img/crissXcross.png);
 	/*background-attachment: fixed;*/
-	background-size: 100%;
+	/*background-size: 100%;*/
 	background-color: #000;
 	color: #fff;
 	font: normal 100%/1.75 sans-serif;
@@ -25,7 +36,6 @@ html {
 body{
 	margin: 0 auto;
 	padding: 2% 2% 1%;
-
 	max-width: 700px;
 
 	/*background-image: url(../img/textured_paper.png);*/
@@ -42,6 +52,7 @@ body{
 img {
 	display: block;
 	width: 100%;
+	border: none;
 }
 
 ul {
@@ -60,14 +71,11 @@ header {
 	border-color: #fff;
 }
 
-header img {
+.logo {
 	display: inline-block;
 	float: left;
-	/*position: absolute;
-	left: 10px;
-	top: 18px;*/
 	margin-bottom: 10px;
-	width: 60px;
+	width: 150px;
 }
 
 

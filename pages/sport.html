@@ -1,0 +1,22 @@
+---
+layout: default
+title: Sport bikes · Cyclopedia
+---
+
+
+		<h1>Sport Bikes</h1>
+		<p>Bicycle racing is a competition sport in which various types of bicycles are used. There are several categories of bicycle racing including road bicycle racing, time trialling, cyclo-cross, mountain bike racing, track cycling, BMX, mountain bike trials, and cycle speedway. Bicycle racing is recognised as an Olympic sport. The Union Cycliste Internationale is the world governing body for cycling and international competitive cycling events.
+Bicycle races are popular all over the world, especially in Europe. The countries most devoted to bicycle racing include Belgium, Denmark, France, Germany, Italy, the Netherlands, Spain and Switzerland. Other countries with international standing include Australia, Luxembourg, the United Kingdom and the United States.</p>
+
+
+		<div class="bike-grid">
+
+			{% for bikes in site.categories.sport %}
+
+				<a class="bike-square grid unit unit-s-1 unit-m-1-2 unit-l-1-3" href="{{site.baseurl}}{{bikes.url}}">
+					<img src="../img/bikes/{{bikes.thumb}}">
+				</a>
+
+			{% endfor %}
+
+		</div>

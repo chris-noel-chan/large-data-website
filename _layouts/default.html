@@ -22,14 +22,19 @@
 	<meta property="twitter:description" content="Rufus fetches bike information for you to repair, adjust, and choose a suitable two-wheeled companion.">
 
 
-
+	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
 	<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
 
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
 	<meta name="description" content="Rufus fetches bike information for you to repair, adjust, and choose a suitable two-wheeled companion.">
+
+	<script src="{{site.baseurl}}/js/modernizr.js"></script>
+
 </head>
 
 <body>
@@ -42,7 +47,7 @@
 
 	<header id="header">
 
-		<a href="index.html" rel="home"><img src="../img/rufus.svg" alt="companion logo"></a>
+		<a href="../index.html" rel="home"><img class="logo" src="../img/cyclopedia.svg" alt="cyclopedia logo"></a>
 		{% include nav.html navclass='nav-top'%}
 
 	</header>
@@ -69,7 +74,6 @@
 
 	  ga('create', 'UA-46026628-1', 'chris-noel-chan.github.io');
 	  ga('send', 'pageview');
-
 	</script>
 
 </body>
