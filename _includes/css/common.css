@@ -25,7 +25,7 @@ html {
 	margin: 0;
 	padding: 0;
 
-	background-image: url(../img/crissXcross.png);
+	background-image: url({{site.baseurl}}/img/crissXcross.png);
 	/*background-attachment: fixed;*/
 	/*background-size: 100%;*/
 	background-color: #000;

@@ -12,7 +12,11 @@ title: Cyclopedia · The bike encyclopedia
 			{% for bikes in site.posts %}
 
 				<a class="bike-square grid unit unit-s-1 unit-m-1-2 unit-l-1-3" href="{{site.baseurl}}{{bikes.url}}">
-					<img src="img/bikes/{{bikes.thumb}}">
+					<img src="img/bikes/{{bikes.thumb}}" alt="{{bikes.title}} bike">
+						<div class="bike-square-rollover">
+							<h3>{{bikes.title}}</h3>
+							<p>{{bikes.description}}</p>
+						</div>
 				</a>
 
 			{% endfor %}

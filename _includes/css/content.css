@@ -2,7 +2,6 @@
 h1,
 h2,
 h3 {
-	color: #81cb9f;
 	font-family: oswald, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -13,16 +12,22 @@ h3 {
 h1 {
 	font-size: 2.5rem;
 	line-height: 3rem;
+
+	color: #81cb9f;
 }
 
 h2 {
 	font-size: 2rem;
 	line-height: 2.5rem;
+
+	color: #81cb9f;
 }
 
 h3 {
 	font-size: 1.25rem;
 	line-height: 1.25rem;
+
+	color: #fff;
 }
 
 a {
@@ -49,6 +54,31 @@ a {
 
 .bike-grid {
 	background-color: #000;
+}
+
+.bike-square {
+	position: relative;
+}
+
+.bike-square-rollover,
+.bike-square-rollover:link,
+.bike-square-rollover:visited {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0,0,0,.6);
+	color: #fff;
+	padding: 1em;
+}
+
+.bike-square-rollover:hover,
+.bike-square-rollover:focus,
+.bike-square-rollover:active {
+	display: block;
 }
 
 @media only screen and (min-width: 25em){
