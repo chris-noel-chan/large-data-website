@@ -25,9 +25,9 @@ html {
 	margin: 0;
 	padding: 0;
 
-	background-image: url(../img/bike-bkg-dbl.jpg);
+	background-image: url(../img/crissXcross.png);
 	/*background-attachment: fixed;*/
-	background-size: 100%;
+	/*background-size: 100%;*/
 	background-color: #000;
 	color: #fff;
 	font: normal 100%/1.75 sans-serif;
@@ -60,7 +60,7 @@ header {
 	border-color: #fff;
 }
 
-header img {
+.logo {
 	display: inline-block;
 	float: left;
 	margin-bottom: 10px;

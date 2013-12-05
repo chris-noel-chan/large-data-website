@@ -1,13 +1,15 @@
 ---
 title: Recumbent
-layout: info
+layout: default
 category: leisure
 description: "*Recumbent bikes* are designed to be ridden in a reclined position. They are more ergonomic and aerodynamic."
 thumb: mtb-colorize1.svg
 source: http://en.wikipedia.org/wiki/Recumbent_bicycle
 ---
 
-![Bike photo](img/bikes/recumbent.jpg)
+![Recumbent bike photo](../img/bikes/mtb-colorize1.svg)
+
+#Recumbent Bikes
 
 A recumbent bicycle is a bicycle that places the rider in a laid-back reclining position. Most recumbent riders choose this type of design for ergonomic reasons; the rider's weight is distributed comfortably over a larger area, supported by back and buttocks. On a traditional upright bicycle, the body weight rests entirely on a small portion of the sitting bones, the feet, and the hands.
 

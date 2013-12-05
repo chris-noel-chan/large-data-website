@@ -1,13 +1,15 @@
 ---
 title: Cyclo-cross
-layout: info
+layout: default
 category: sport
 description: "*Cyclo-cross bikes* is designed like a racing bike, but can traverse rougher terrain."
 thumb: mtb-colorize9.svg
 source: http://en.wikipedia.org/wiki/Cyclo-cross_bicycle
 ---
 
-![Bike photo](img/bikes/cyclocross.jpg)
+![Cyclo-cross bike photo](../img/bikes/mtb-colorize9.svg)
+
+#Cyclo-cross Bikes
 
 A cyclo-cross bicycle is a bicycle specifically designed for the rigors of a cyclo-cross race. 
 
