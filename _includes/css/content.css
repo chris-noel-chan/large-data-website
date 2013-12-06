@@ -102,7 +102,7 @@ p + .bike-grid{
 
 /*--------------------------------------------------*/
 
-.function-headers a {
+.big-link a {
 	padding: 4px;
 	background-color: #fff;
 	color: #000;
@@ -110,9 +110,9 @@ p + .bike-grid{
 	font-size: 2rem;
 }
 
-.function-headers a:hover,
-.function-headers a:focus,
-.function-headers a:active {
+.big-link a:hover,
+.big-link a:focus,
+.big-link a:active {
 	background-color: #81cb9f;
 }
 
@@ -128,7 +128,7 @@ p + .bike-grid{
 		font-size: 2rem;
 	}
 
-	.function-headers a {
+	.big-link a {
 		font-size: 2.75rem;
 		line-height: 4.5rem;
 	}
@@ -148,7 +148,7 @@ p + .bike-grid{
 		font-size: 2.25rem;
 	}
 
-	.function-headers li {
+	.big-link li {
 	display: inline-block;
 	margin: 0 5% 15% 0;
 	}
@@ -160,7 +160,7 @@ p + .bike-grid{
 		margin: 2%;
 	}
 
-	.function-headers a {
+	.big-link a {
 		font-size: 4.25rem;
 	}
 }
