@@ -8,17 +8,14 @@ title: Transport bikes · Cyclopedia
 		<p>Utility cycling encompasses any cycling done simply as a means of transport rather than as a sport or leisure activity. It is the original and most common type of cycling in the world.</p>
 		<p>Utility or "transportational" cycling generally involves travelling short and medium distances (several kilometres, not uncommonly 3-15 kilometers one way, or somewhat longer), often in an urban environment. It includes commuting (i.e. going to work, school or university), going shopping and running errands, as well as heading out to see friends and family or for other social activities.</p>
 
-		<div class="bike-grid">
+		<div class="bike-grid grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-2-3">
+				<h2 class="title-banner">Examples</h2>
+			</div>
 
-			{% for bikes in site.categories.transport %}
+			{% for bikes in site.categories.sport %}
 
-				<a class="bike-square grid unit unit-s-1 unit-m-1-2 unit-l-1-3" href="{{site.baseurl}}{{bikes.url}}">
-					<img src="../img/bikes/{{bikes.thumb}}">
-					<div class="bike-square-rollover">
-						<h3>{{bikes.title}}</h3>
-						<p>{{bikes.description}}</p>
-					</div>
-				</a>
+				{% include bike-grid.html %}
 
 			{% endfor %}
 

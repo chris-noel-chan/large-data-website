@@ -9,17 +9,14 @@ title: Sport bikes · Cyclopedia
 Bicycle races are popular all over the world, especially in Europe. The countries most devoted to bicycle racing include Belgium, Denmark, France, Germany, Italy, the Netherlands, Spain and Switzerland. Other countries with international standing include Australia, Luxembourg, the United Kingdom and the United States.</p>
 
 
-		<div class="bike-grid">
+		<div class="bike-grid grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-2-3">
+				<h2 class="title-banner">Examples</h2>
+			</div>
 
 			{% for bikes in site.categories.sport %}
 
-				<a class="bike-square grid unit unit-s-1 unit-m-1-2 unit-l-1-3" href="{{site.baseurl}}{{bikes.url}}">
-					<img src="../img/bikes/{{bikes.thumb}}">
-					<div class="bike-square-rollover">
-						<h3>{{bikes.title}}</h3>
-						<p>{{bikes.description}}</p>
-					</div>
-				</a>
+				{% include bike-grid.html %}
 
 			{% endfor %}
 

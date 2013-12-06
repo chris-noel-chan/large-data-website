@@ -8,17 +8,14 @@ title: Leisure bikes · Cyclopedia
 		<p>Bicycles are used for recreation at all ages. Bicycle touring, also known as cyclotourism, involves touring and exploration or sightseeing by bicycle for leisure. A brevet or randonnée is an organized long-distance ride.</p>
 		<p>Many cycling clubs hold organized rides in which bicyclists of all levels participate. The typical organized ride starts with a large group of riders, called the mass, bunch or even peloton. This will thin out over the course of the ride. Many riders choose to ride together in groups of the same skill level to take advantage of drafting.</p>
 
-		<div class="bike-grid">
+		<div class="bike-grid grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-2-3">
+				<h2 class="title-banner">Examples</h2>
+			</div>
 
-			{% for bikes in site.categories.leisure %}
+			{% for bikes in site.categories.sport %}
 
-				<a class="bike-square grid unit unit-s-1 unit-m-1-2 unit-l-1-3" href="{{site.baseurl}}{{bikes.url}}">
-					<img src="../img/bikes/{{bikes.thumb}}">
-					<div class="bike-square-rollover">
-						<h3>{{bikes.title}}</h3>
-						<p>{{bikes.description}}</p>
-					</div>
-				</a>
+				{% include bike-grid.html %}
 
 			{% endfor %}
 
