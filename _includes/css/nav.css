@@ -12,14 +12,14 @@
 .nav-top a.current,
 .nav-top a.current:link,
 .nav-top a.current:visited  {
-	background-color: #5c9e77;
+	background-color: #81cb9f;
 }
 
 .nav-bottom a.current,
 .nav-bottom a.current:link,
 .nav-bottom a.current:visited {
 	border-bottom: 4px solid;
-	border-color: #5c9e77;
+	border-color: #81cb9f;
 }
 
 
@@ -40,12 +40,12 @@
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #5c9e77;
+	background-color: #81cb9f;
 	background-position: 0 -40px;
 }
 
 .nav-btn[data-state="engaged"] {
-	background-color: #5c9e77;
+	background-color: #81cb9f;
 	background-position: -46px -40px;
 }
 
@@ -89,13 +89,10 @@
 	display: block;
 	overflow: hidden;
 
-
-	/*background-color: #81cb9f;*/
 	color: #fff;
 
 	font-size: 1.35rem;
 	font-family: romeralregular, sans-serif;
-	/*letter-spacing: 1px;*/
 
 	text-transform: lowercase;
 
@@ -112,14 +109,14 @@
 .nav-top a:hover,
 .nav-top a:focus,
 .nav-top a:active {
-	background-color: #5c9e77;
+	background-color: #81cb9f;
 }
 
 .nav-bottom a:hover,
 .nav-bottom a:focus,
 .nav-bottom a:active {
 	border-bottom: 4px solid;
-	border-color: #5c9e77;
+	border-color: #81cb9f;
 }
 
 
