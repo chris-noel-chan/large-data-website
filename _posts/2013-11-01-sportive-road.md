@@ -1,8 +1,8 @@
 ---
-title: Sportive / Road Bikes · Cyclopedia
+title: Sportive / Road Bikes
 layout: default
 category: leisure
-description: "*Sportive bikes* are similar to *racing bikes*, but distinguished by being built more for endurance than bursts of speed"
+description: "Sportive bikes are similar to racing bikes, but distinguished by being built more for endurance than bursts of speed"
 thumb: mtb-colorize12.svg
 colour: 3e3f40
 source: http://en.wikipedia.org/wiki/Road_bicycle

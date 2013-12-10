@@ -2,7 +2,7 @@
 h1,
 h2,
 h3 {
-	font-family: oswald, sans-serif;
+	font-family: romeralregular, oswald, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 
@@ -11,7 +11,7 @@ h3 {
 
 h1,
 h2 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	line-height: 3rem;
 
 	color: #81cb9f;
@@ -20,6 +20,7 @@ h2 {
 h3 {
 	font-size: 1.25rem;
 	line-height: 1.25rem;
+	margin: .5rem 0;
 
 	color: #fff;
 }
@@ -84,6 +85,10 @@ p + .bike-grid{
 	filter: alpha(opacity=100);
 }
 
+.bike-square-rollover p {
+	margin: .25rem 0;
+}
+
 /*--------------------------------------------------*/
 
 .touch .bike-square-rollover {
@@ -108,6 +113,7 @@ p + .bike-grid{
 	color: #000;
 
 	font-size: 2rem;
+	font-family: romeralregular, sans-serif;
 }
 
 .big-link a:hover,
@@ -120,12 +126,13 @@ p + .bike-grid{
 
 	h1,
 	h2 {
-		font-size: 4rem;
+		font-size: 3rem;
 		line-height: 4.5rem;
 	}
 
 	h3 {
 		font-size: 2rem;
+		line-height: 3rem;
 	}
 
 	.big-link a {
@@ -140,12 +147,13 @@ p + .bike-grid{
 
 	h1,
 	h2 {
-		font-size: 7rem;
+		font-size: 5.25rem;
 		line-height: 7.25rem;
 	}
 
 	h3 {
 		font-size: 2.25rem;
+		line-height: 2.5rem;
 	}
 
 	.big-link li {
