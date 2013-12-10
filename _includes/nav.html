@@ -1,9 +1,6 @@
-		<a href="#nav-bottom" class="nav-btn" data-state="disengaged"></a>
-
 		<nav role="navigation" id="{{include.navclass}}" class="nav {{include.navclass}}" data-state="collapsed">
 			<ul>
 				<li><a href="{{site.baseurl}}/index.html" rel="home" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
-				<li><a href="{{site.baseurl}}/pages/function.html" class="{% if page.url == 'pages/function.html' %}current{% endif %}">Function</a></li>
-				<!-- <li><a href="{{site.baseurl}}/pages/safety.html" class="{% if page.url == 'pages/safety.html' %}current{% endif %}">Safety</a></li> -->
+				<li><a href="{{site.baseurl}}/pages/function.html" class="{% if page.url contains 'function' %}current{% endif %}">Function</a></li>
 			</ul>
 		</nav>
