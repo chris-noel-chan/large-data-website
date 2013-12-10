@@ -1,5 +1,5 @@
 ---
-title: Cyclo-cross
+title: Cyclo-cross Bikes · Cyclopedia
 layout: default
 category: sport
 description: "Cyclo-cross bikes is designed like a racing bike, but can traverse rougher terrain."

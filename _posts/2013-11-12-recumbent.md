@@ -1,5 +1,5 @@
 ---
-title: Recumbent
+title: Recumbent Bikes · Cyclopedia
 layout: default
 category: leisure
 description: "Recumbent bikes are designed to be ridden in a reclined position. They are more ergonomic and aerodynamic."

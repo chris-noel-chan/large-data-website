@@ -1,7 +1,13 @@
 #lost-img {
-	background-color: rgba(16,95,128,.8);
-	padding: 2%;
-	overflow: hidden;
+	background-color: #5c4b51;
+	margin: 0 auto;
+	overflow: none;
+}
+
+.lost-txt {
+	/*display: none;*/
+	max-height: 0px;
+	opacity: 0;
 }
 
 
@@ -9,14 +15,7 @@
 
 	.you-lost-img {
 		display: inline;
-		float: left;
-		width: 40%;
-	}
-
-	.you-lost-txt {
-		display: inline;
-		float: right;
-		width: 45%;
+		width: 100%;
 	}
 
 }
